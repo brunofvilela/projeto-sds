@@ -9,6 +9,8 @@ type ChartData = {
   series: number[]
 }
 
+// Jeito correto de fazer:
+
 const DonutChart = () => {
   const [chartData, setChartData] = useState<ChartData>({
     labels: [],
